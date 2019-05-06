@@ -1,0 +1,171 @@
+/* pages/count_card_creat/count_card_creat.wxss */
+
+.task_interface{     /*任务界面的总体界面布局*/
+  border:10px solid #58d427;
+}
+
+
+.task_creat{        /*  输入 任务内容的界面布局 */
+  border:10px solid #58d427;
+  margin-top:150rpx;
+  margin-bottom: 150rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+  
+}
+.task{            
+  display:flex;
+  flex-direction:row;
+  padding-left: 10rpx;
+  padding-top: 50rpx;
+  padding-bottom:10rpx;
+  width:100%;
+}
+.task_content{    /* "任务内容"四个字的字体样式*/
+  margin-right: 30rpx;
+  font-style:normal;
+  font-weight: bold;
+}
+.task_input{      /* 未输入前 浅黑色字体的样式*/
+  padding-left:10rpx;
+}
+.creat_underline{     /*任务内容的下划线*/
+  border:1px solid #cccccc;
+  opacity:0.5;
+  width:90%;
+  margin-left:10rpx;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.task_time{       /*时间输入 的界面设计*/
+  border:10px solid #46278f;
+  margin-top:150rpx;
+  margin-bottom: 150rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+}
+.time{          /* 时间输入内容的界面设计*/
+  display:flex;
+  flex-direction:row;
+  padding-left: 10rpx;
+  padding-top: 50rpx;
+  padding-bottom:50rpx;
+  width:100%;
+}
+.start_content{    /**/
+  margin-right: 15rpx;
+  font-style:normal;
+  font-weight: bold;
+}
+.end_content{
+  margin-right: 15rpx;
+  margin-left:20rpx;
+  font-style:normal;
+  font-weight: bold;
+}
+.start_picker{
+    border-left-width: 5rpx;
+    border-left-style: solid;
+    border-right-width: 5rpx;
+    border-right-style:solid;
+    border-top-width:5rpx;
+    border-top-style:solid;
+    border-bottom-width: 5rpx;
+    border-bottom-style:solid;
+    border-color:#38c28d;
+    padding-left: 5rpx;
+    padding-right: 5rpx;
+    padding-top:5rpx;
+    padding-bottom:5rpx;
+
+}
+.end_picker{
+  border-left-width: 5rpx;
+    border-left-style: solid;
+    border-right-width: 5rpx;
+    border-right-style:solid;
+    border-top-width:5rpx;
+    border-top-style:solid;
+    border-bottom-width: 5rpx;
+    border-bottom-style:solid;
+    border-color:#38c28d;
+    padding-left: 5rpx;
+    padding-right: 5rpx;
+    padding-top:5rpx;
+    padding-bottom:5rpx;
+    
+}
+.start_type{
+
+}
+/*.time_input{
+  padding-left:5rpx;
+  width:30%;
+}*/
+/*.time_underline{
+  border:1px solid #cccccc;
+  opacity:0.5;
+  width:90%;
+  margin-left:10rpx;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}*/
+
+
+
+
+
+
+
+.task_remark{           /*任务备注设计*/
+  border:10px solid #d45e27;
+  margin-top:150rpx;
+  margin-bottom: 45rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+}
+.remark{          /*框架设计*/
+  display:flex;     /*横向表单形式 */
+  flex-direction:row;
+  padding-left: 10rpx;
+  padding-top: 50rpx;
+  padding-bottom:10rpx;
+  width:100%;
+}
+.remark_content{      /*任务备注 四个字样式 */
+  margin-right: 30rpx;
+  font-style:normal;
+  font-weight: bold;
+}
+.task_input{
+  padding-left:10rpx;
+}
+.remark_underline{      /*灰色下划线*/
+  border:1px solid #cccccc;
+  opacity:0.5;
+  width:90%;
+  margin-left:10rpx;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/*.button_type{
+  border:5rpx solid #1815a7;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 0rpx;
+  margin-bottom: 0rpx;
+}*/
+
+.creat_btn{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 0rpx;
+  margin-bottom: 0rpx;
+  
+  color:#f03f20;
+
+}

@@ -1,0 +1,4 @@
+
+<view class="todays_task">
+  <image src="../../pages/images/creat/todays_task.png"  bindtap='onAdd' class="todays_task_image"/>
+  </view>

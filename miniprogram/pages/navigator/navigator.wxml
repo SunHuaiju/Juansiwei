@@ -1,0 +1,4 @@
+<!--pages/navigator/navigator.wxml-->
+<text>pages/navigator/navigator.wxml</text>
+
+<view>保留当前页进行跳转，单机左上角可以返回到当前页面</view>

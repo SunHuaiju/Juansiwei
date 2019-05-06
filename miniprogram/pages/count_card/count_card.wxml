@@ -1,0 +1,15 @@
+<!--打卡界面的代码-->
+<!--分别是两个主要功能，左上角的 “今日打卡”， 和正中间的 + 号添加项目-->
+ <view class="count_card_creat">
+  <image src="../../pages/images/creat/task_creat.png"  bindtap='creat_goto' class="count_card_creat_image"/>
+  </view>
+
+  <view class="todays_task">
+  <image src="../../pages/images/creat/todays_task.png"  bindtap='todays_task_goto' class="todays_task_image"/>
+  </view>
+  <!--.navigatoe-hover {
+  opacity: 0.9;
+  background: #f7f7f7;
+}-->
+
+  

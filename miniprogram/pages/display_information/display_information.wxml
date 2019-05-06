@@ -1,0 +1,20 @@
+<!--pages/display_information/display_information.wxml-->
+<view class="display_information">
+  <view class="Model1">
+    <text>我们是居安思微团队</text>
+  </view>
+  <form bindsubmit="formSubmit">
+    <view class="text-content">
+      <view class='input-content'>
+        <input placeholder="写个标题~" />
+      </view>
+      <view class='text-area'>
+        <textarea name="input-content" type="text" placeholder="输入详细描述~" value="{{textContent}}" bindblur='getTextAreaContent'></textarea>
+      </view>
+    </view>
+
+    <view class='btn-func'>
+      <button class="btn" formType='submit' open-type="getUserInfo">提交</button>
+    </view>
+  </form>
+</view>

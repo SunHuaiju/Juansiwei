@@ -1,0 +1,99 @@
+/* pages/set/set.wxss */
+.MyHome{        /*  设置  的界面布局 */
+  border:10rpx solid #58d427;
+  margin-top:80rpx;
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+  
+}
+.MyHome3{        /*  我的收藏  的界面布局 */
+  border:10rpx solid #58d427;
+  margin-top:0rpx;
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+  
+}
+.MyHome1{        /*  关于我们  的界面布局 */
+  border:10rpx solid #58d427;
+  margin-top:0rpx;
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+  
+}
+.MyHome2{        /*  成就等级  的界面布局 */
+  border:10rpx solid #58d427;
+  margin-top:0rpx;
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+  
+}
+.Model1{
+  front-weight:bold
+}
+
+/*用户头像*/
+.useravatar{
+  margin-top:50rpx;
+  margin-left:300rpx;
+  width: 160rpx;
+  height: 160rpx;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/*用户昵称*/
+.userName{
+    margin-top:80rpx;
+    margin-left:250rpx;
+    width: 150rpx;
+    height: 150rpx;
+    overflow: hidden;
+}
+
+/*设置  */
+.task{
+  border:lpx solid #999999;
+  margin-top:50rpx;
+  margin-bottom: 50rpx;
+  margin-left: 330rpx;
+  margin-right:20rpx;
+  font-style:normal;
+  font-weight: bold;
+}
+/*我的收藏  */
+.task3{
+  border:lpx solid #999999;
+  margin-top:50rpx;
+  margin-bottom: 50rpx;
+  margin-left: 290rpx;
+  margin-right:20rpx;
+  font-style:normal;
+  font-weight: bold;
+}
+
+/*关于我们  */
+.task1{
+  border:lpx solid #999999;
+  margin-top:50rpx;
+  margin-bottom: 50rpx;
+  margin-left: 290rpx;
+  margin-right:20rpx;
+  font-style:normal;
+  font-weight: bold;
+}
+
+/*成就等级  */
+.task2{
+  border:lpx solid #999999;
+  margin-top:50rpx;
+  margin-bottom: 50rpx;
+  margin-left: 290rpx;
+  margin-right:20rpx;
+  font-style:normal;
+  font-weight: bold;
+}

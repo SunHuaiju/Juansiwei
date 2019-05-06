@@ -1,0 +1,26 @@
+<!--pages/set/set.wxml-->
+<!--主页面的设计-->
+<view>
+<open-data type="userAvatarUrl" class="useravatar"></open-data>
+<open-data type="userNickName" class="userName"></open-data>
+  <view class="MyHome">
+    <view class="Model">
+      <view class = "task">设置</view>
+    </view>
+  </view>
+  <view class="MyHome3">
+    <view class="Model3">
+      <view class = "task3" bindtap="goto_mycollect">我的收藏</view>
+    </view>
+  </view>
+  <view class="MyHome1">
+    <view class="Model1">
+      <view class = "task1" bindtap="goto_information">关于我们</view>
+    </view>
+  </view>
+  <view class="MyHome2">
+    <view class="Model2">
+      <view class = "task2"  bindtap="goto_myachievement">成就等级</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,61 @@
+<!--添加今日任务的界面-->
+
+<view class="task_interface">
+
+  <view class="task_creat">
+    <view class="task">
+      <view class="task_content">任务内容:</view>
+      <view class="task_input"><input          bindinput="taskinput"placeholder="请输入待完成任务"placeholder-style="color:#999999;"/></view>
+    </view>
+    <view class="creat_underline"></view>
+  </view>
+
+  <view class="task_time">
+    <view class="time">
+      <view class="start_content">开始时间:</view>
+      <!--view class="time_input"><input bindinput="timeinput"placeholder="开始时间"/></view-->
+
+      <view class="start_time">
+        <picker mode="time" value="{{starttime}}" 
+      start="00:00" end="24:00"bindchange="start_change">
+          <view class="picker"> 
+            <view class="start_picker">
+              <view class="start_type">{{starttime}}
+              </view>
+            </view>
+          </view>
+        </picker>
+      </view>
+
+      <view class="end_content">结束时间:</view>
+      <view class="end_time">
+      <picker mode="time" value="{{endtime}}" 
+      start="00:00" end="24:00"bindchange="end_change">
+          <view class="picker">
+            <view class="end_picker">
+              <view class="end_style">{{endtime}}
+              </view>
+            </view>
+          </view>
+        </picker>
+      </view>
+      <view class="time_underline"></view>
+
+    </view>
+  </view>
+
+  <view class="task_remark">
+    <view class="remark">
+      <view class="remark_content">任务备注:</view>
+      <view class="task_input"><input bindinput="remarkinput"placeholder="添加任务备注/注意事项"/></view>
+    </view>
+    <view class="remark_underline"></view>
+  </view>
+  
+  <view class="button_type">
+    <button class="creat_btn" disabled ="{{task_complete}}"type="{{complete_type}}"bindtap="creat_complete"> 创建完成            </button>
+  </view>
+</view>
+
+
+

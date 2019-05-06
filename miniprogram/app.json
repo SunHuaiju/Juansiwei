@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/logins/logins",
+    "pages/count_card/count_card",
+    "pages/count_card/count_card_creat/count_card_creat",
+    "pages/days/days",
+    "pages/community/community",
+    "pages/set/set",
+    "pages/count_card_creat/count_card_creat",
+    "pages/todays_task/todays_task",
+    "pages/signin",
+    "pages/display_mycollect/display_mycollect",
+    "pages/display_achievement/display_achievement",
+    "pages/display_information/display_information"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "打卡",
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#FFC0CB",
+    "color": "#FF1493",
+    "selectedColor": "#008000",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/count_card/count_card",
+        "text": "打卡",
+        "iconPath": "pages/images/tab/打卡.png",
+        "selectedIconPath": "pages/images/tab/打卡.png"
+      },
+      {
+        "pagePath": "pages/days/days",
+        "text": "日历",
+        "iconPath": "pages/images/tab/日历.png",
+        "selectedIconPath": "pages/images/tab/日历.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "pages/images/tab/社区.png",
+        "selectedIconPath": "pages/images/tab/社区.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "主页",
+        "iconPath": "pages/images/tab/主页.png",
+        "selectedIconPath": "pages/images/tab/主页.png"
+      }
+    ]
+  }
+}

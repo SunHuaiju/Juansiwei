@@ -1,0 +1,28 @@
+/* 界面设计的尺寸大小和图片尺寸的规格按钮设计 */
+.count_card_creat{
+  display: flex;
+  
+  
+}
+.count_card_creat_image{
+    display: table-cell;
+    width:50%;
+    height: 30%;
+    top:500rpx;
+    left:200rpx;
+    vertical-align: middle;
+    text-align: center;
+    position:absolute;
+}
+.todays_task_image{
+    display: table-cell;
+    width: 30%;
+    height: 10%; 
+    top:100rpx;
+    vertical-align: middle;
+    text-align: center;
+    position:absolute;
+}
+
+
+
